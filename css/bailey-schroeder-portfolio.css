@@ -1,0 +1,50 @@
+body {
+font-family: 'source sans pro', sans-serif;
+margin: 0;
+color: black;
+text-align: center}
+
+.background-image {background-image: url("https://images.unsplash.com/photo-1439761414027-4f4ebeeda3a3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=969f23b9f65b9b0c1779858502a20df2");
+background-size: cover;
+height: 500px}
+
+.header {
+text-align: center;
+font-weight: 400;
+font-size: 50px;
+font-weight: bold}
+
+.header h1 {margin-bottom: -1px}
+
+.sub-header {
+text-align: center; 
+font-size: 24px;
+margin-top: -1px;
+font-weight: lighter;}
+
+.sub-header p {margin-top: 0px}
+
+.top-navigation .links li {
+display: inline-block;
+margin-left: 35px;
+text-decoration: underline}
+
+.introduction {text-align: center; 
+font-size: 36px;
+text-transform: uppercase;
+text-decoration: underline;
+}
+
+.project-karma>img, .project-about>img, .project-nytimes>img {
+border: 3px solid black;
+width: 70%;
+height: auto;
+margin-top: 25px}
+
+.project-karma>h2, .project-about>h2, .project-nytimes>h2 {
+font-style: italic; 
+margin-top: 39px;
+font-weight: 400;}
+
+
+
