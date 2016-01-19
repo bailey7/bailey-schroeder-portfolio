@@ -43,7 +43,7 @@ text-decoration: underline;
 font-weight: lighter;
 }
 
-.project-karma>img, .project-about>img, .project-nytimes>img {
+.project-karma img, .project-about img, .project-nytimes img {
 border: 3px solid black;
 width: 70%;
 height: auto;
