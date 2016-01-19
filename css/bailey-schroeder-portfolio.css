@@ -4,6 +4,11 @@ margin: 0;
 color: black;
 text-align: center}
 
+a {
+color: white;
+font-weight: 400;
+font-size: 20px;}
+
 .background-image {background-image: url("https://images.unsplash.com/photo-1439761414027-4f4ebeeda3a3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=969f23b9f65b9b0c1779858502a20df2");
 background-size: cover;
 height: 500px}
@@ -29,10 +34,12 @@ display: inline-block;
 margin-left: 35px;
 text-decoration: underline}
 
-.introduction {text-align: center; 
-font-size: 36px;
+.introduction {
+text-align: center; 
+font-size: 20px;
 text-transform: uppercase;
 text-decoration: underline;
+font-weight: lighter;
 }
 
 .project-karma>img, .project-about>img, .project-nytimes>img {
@@ -46,5 +53,17 @@ font-style: italic;
 margin-top: 39px;
 font-weight: 400;}
 
+.navigation .links li {
+display: inline-block;
+padding-left: 0;
+text-decoration: underline}
+
+.links {padding-left: 0;
+margin-top: 40px; 
+background-color: black;
+color: white;
+padding-top: 40px;
+padding-bottom: 40px;
+text-transform: uppercase;}
 
 
